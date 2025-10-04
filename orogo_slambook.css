@@ -1,0 +1,62 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #fe4cde;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgb(241, 113, 219);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #254e9c;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
